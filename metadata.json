@@ -1,0 +1,6 @@
+{
+  "name": "MSB Event Management",
+  "description": "Premier event management & royal wedding planning across Tamil Nadu & Puducherry. Luxury stage decoration, grand entries, catering & photography.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

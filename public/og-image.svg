@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="bg-grad" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#151719" />
+      <stop offset="50%" stop-color="#1C1F23" />
+      <stop offset="100%" stop-color="#2A2216" />
+    </linearGradient>
+    <linearGradient id="gold-grad" x1="0" y1="0" x2="800" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#C5A059" />
+      <stop offset="50%" stop-color="#E5C583" />
+      <stop offset="100%" stop-color="#A67C33" />
+    </linearGradient>
+    <radialGradient id="glow" cx="600" cy="315" r="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#C5A059" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#C5A059" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1200" height="630" fill="url(#bg-grad)" />
+  <rect width="1200" height="630" fill="url(#glow)" />
+
+  <!-- Luxury Border Inset -->
+  <rect x="36" y="36" width="1128" height="558" rx="8" stroke="url(#gold-grad)" stroke-width="2" stroke-opacity="0.4" fill="none" />
+  <rect x="48" y="48" width="1104" height="534" rx="4" stroke="#FAF8F5" stroke-width="1" stroke-opacity="0.1" fill="none" />
+
+  <!-- Corner Flourishes -->
+  <circle cx="36" cy="36" r="6" fill="#C5A059" />
+  <circle cx="1164" cy="36" r="6" fill="#C5A059" />
+  <circle cx="36" cy="594" r="6" fill="#C5A059" />
+  <circle cx="1164" cy="594" r="6" fill="#C5A059" />
+
+  <!-- Brand Emblem Monogram -->
+  <g transform="translate(600, 160)">
+    <circle cx="0" cy="0" r="54" fill="#1C1F23" stroke="url(#gold-grad)" stroke-width="2.5" />
+    <circle cx="0" cy="0" r="46" fill="none" stroke="#FAF8F5" stroke-width="1" stroke-opacity="0.2" />
+    <text x="0" y="14" font-family="'Cormorant Garamond', Georgia, serif" font-size="34" font-weight="700" fill="url(#gold-grad)" text-anchor="middle" letter-spacing="3">MSB</text>
+  </g>
+
+  <!-- Brand Eyebrow -->
+  <text x="600" y="270" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="15" font-weight="600" fill="#E5C583" text-anchor="middle" letter-spacing="8">PREMIUM EVENT MANAGEMENT &amp; WEDDING PLANNING</text>
+
+  <!-- Main Headline -->
+  <text x="600" y="340" font-family="'Cormorant Garamond', Georgia, serif" font-size="52" font-weight="600" fill="#FAF8F5" text-anchor="middle" letter-spacing="1">Turning Celebrations Into</text>
+  <text x="600" y="405" font-family="'Cormorant Garamond', Georgia, serif" font-size="56" font-style="italic" font-weight="400" fill="url(#gold-grad)" text-anchor="middle" letter-spacing="2">Unforgettable Memories</text>
+
+  <!-- Core Services Tagline -->
+  <text x="600" y="470" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="18" font-weight="400" fill="#DDD4C4" text-anchor="middle" letter-spacing="2">Royal Stage Décor  •  Grand Entries  •  Cinematic Photography  •  Live Catering</text>
+
+  <!-- Footer Contact & Availability -->
+  <g transform="translate(600, 530)">
+    <rect x="-260" y="-18" width="520" height="36" rx="18" fill="#FAF8F5" fill-opacity="0.08" stroke="url(#gold-grad)" stroke-width="1" stroke-opacity="0.3" />
+    <text x="0" y="6" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="14" font-weight="500" fill="#F3EDE2" text-anchor="middle" letter-spacing="1">Direct Hotline: +91 73391 95148  |  Puducherry &amp; All Over Tamil Nadu</text>
+  </g>
+</svg>
